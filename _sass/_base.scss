@@ -8,8 +8,6 @@ dl, dd, ol, ul, figure {
     padding: 0;
 }
 
-
-
 /** Variables **********************************************/
 $base-font-family:              Helvetica, sans-serif;
 $base-line-height:              1.5em;
@@ -40,7 +38,6 @@ $text-color:     #666;
 /* Set theme color *************************/
 $theme-color:   $red;
 
-
 /************************************************************/
 
 /**
@@ -56,8 +53,6 @@ body {
     -webkit-text-size-adjust: 100%;
     overflow-y: scroll;
 }
-
-
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
@@ -79,9 +74,7 @@ hr{
     height: 0;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-
 }
-
 
 /**
  * Figures
@@ -93,8 +86,6 @@ figure > img {
 figcaption {
     font-size: $small-font-size;
 }
-
-
 
 /**
  * Lists
@@ -109,8 +100,6 @@ li {
          margin-bottom: 0;
     }
 }
-
-
 
 /**
  * Headings
@@ -139,13 +128,10 @@ a {
 article a {
     color: $theme-color;
     font-weight: 100;
-
     &:hover {
         text-decoration: none;
     }
 }
-
-
 
 /**
  * Blockquotes
@@ -156,13 +142,10 @@ blockquote {
     padding-left: $horizontal-spacing-unit / 2;
     font-size: 18px;
     font-style: italic;
-
     > :last-child {
         margin-bottom: 0;
     }
 }
-
-
 
 /**
  * Code formatting
@@ -184,15 +167,12 @@ code {
 pre {
     padding: 8px 12px;
     overflow-x: scroll;
-
     > code {
         border: 0;
         padding-right: 0;
         padding-left: 0;
     }
 }
-
-
 
 /**
  * Wrapper
@@ -205,7 +185,6 @@ pre {
     padding-right: $horizontal-spacing-unit;
     padding-left: $horizontal-spacing-unit;
     @extend %clearfix;
-
     @include media-query($on-laptop) {
         max-width: -webkit-calc(800px - (#{$horizontal-spacing-unit}));
         max-width:         calc(800px - (#{$horizontal-spacing-unit}));
@@ -230,13 +209,11 @@ pre {
  * Icons
  */
 .icon {
-
     > svg {
         display: inline-block;
         width: 16px;
         height: 16px;
         vertical-align: middle;
-
         path {
             fill: $grey-color;
         }
