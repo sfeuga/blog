@@ -7,9 +7,9 @@ description: > # this means to ignore newlines until "baseurl:"
   Member of the [Free Software Fundation](http://www.fsf.org/).
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://sfeuga.github.io" # the base hostname & protocol for your site
-twitter_username: https://twitter.com/sfeuga
-github_username:  https://github.com/sfeuga
-linkedin_username: https://www.linkedin.com/in/sfeuga
+twitter: https://twitter.com/sfeuga
+github:  https://github.com/sfeuga
+linkedin: https://www.linkedin.com/in/sfeuga
 
 # Build settings
 markdown: kramdown
