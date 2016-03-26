@@ -1,9 +1,7 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
+# Only the main Sass file needs front matter
 ---
 @charset "utf-8";
-
-
 
 // Our variables
 $base-font-family: Helvetica, Arial, sans-serif;
@@ -25,8 +23,6 @@ $footer-color:     rgba(51,51,51,0.5);
 $on-palm:          600px;
 $on-laptop:        800px;
 
-
-
 // Using media queries with like this:
 // @include media-query($palm) {
 //     .wrapper {
@@ -39,8 +35,6 @@ $on-laptop:        800px;
         @content;
     }
 }
-
-
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
