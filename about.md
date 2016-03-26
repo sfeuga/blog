@@ -16,24 +16,23 @@ I quickly left the close world of SAP for another job as a [Ruby](https://en.wik
 
 <div class="col three caption">
   <hr/>
-<!--  <span class="contacticon">
+  <span class="contacticon">
 
     {% if site.email %}
       <a href="mailto:{{ site.email }}" class="square email"></a>
     {% endif %}
 
-    {% if site.github_username %}
+    {% if site.github %}
       <a href="{{ site.github }}" target="_blank" class="square github"></a>
     {% endif %}
 
-    {% if site.linkedin_username %}
+    {% if site.linkedin %}
       <a href="{{ site.linkedin }}" target="_blank" class="square linkedin"></a>
     {% endif %}
 
-    {% if site.twitter_username %}
+    {% if site.twitter %}
       <a href="{{ site.twitter }}" target="_blank" class="square twitter"></a>
     {% endif %}
   </span>
--->
-</div>
 
+</div>
