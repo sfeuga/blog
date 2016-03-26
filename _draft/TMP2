@@ -1,0 +1,145 @@
+---
+layout: post
+
+title: Nano
+
+categories:
+  - Computer science
+
+tag:
+  - Operating system
+
+published: false
+---
+The Nano Text Editor
+<br /><br /><strong>Introduction :</strong><br />
+Nano is a text editor suited to working in UNIX. It is not as powerful as PC window-based editors, as it does not rely on the mouse, but still has many useful features.
+<br /><br />
+Most nano commands are invoked by holding down the <code>Ctrl</code> key (that is, the control key), and pressing one of the other keys. In this text, the control key is referred to using <strong>^</strong>. For example, <strong>^X</strong> means ``hold down the CTRL key and press the x key''. Most of the important commands are listed at the bottom of your screen.
+<br /><br />
+<table>
+<tbody>
+<tr>
+<td><strong>^G</strong></td>
+<td>nano help</td>
+</tr>
+</tbody>
+</table>
+
+<strong>Starting nano :</strong>
+To edit a file called <em>filename</em>, type <code>nano</code> <em>filename</em>.
+<br /><br />
+In nano, you can insert another file:
+<table>
+<tbody>
+<tr>
+<td><strong>^R</strong></td>
+<td>read an existing file into nano (inserted at the current cursor position)</td>
+</tr>
+<tr>
+<td><strong>^T</strong></td>
+<td>opens a browser that allows you to select a file name from a list of files and directories</td>
+</tr>
+</tbody>
+</table>
+
+<strong>Navigation :</strong><br />
+The usual mouse-based point-and-click method is not supported by nano. Use the <strong>arrow</strong>keys to move around the page in nano.
+<br /><br />
+Other navigation commands:
+
+<table>
+<tbody>
+<tr>
+<td><strong>^A</strong></td>
+<td>move to beginning of line</td>
+</tr>
+<tr>
+<td><strong>^E</strong></td>
+<td>move to end of line</td>
+</tr>
+<tr>
+<td><strong>^Y</strong></td>
+<td>move down a page</td>
+</tr>
+<tr>
+<td><strong>^V</strong></td>
+<td>move up a page</td>
+</tr>
+<tr>
+<td><strong>^_</strong></td>
+<td>move to a specific line (<strong>^_^V</strong> moves to the top of the file, <strong>^_^Y</strong> to the bottom)</td>
+</tr>
+<tr>
+<td><strong>^C</strong></td>
+<td>find out what line the cursor is currently on</td>
+</tr>
+<tr>
+<td><strong>^W</strong></td>
+<td>search for some text.</td>
+</tr>
+</tbody>
+</table>
+When searching, you will be prompted for the text to search for. It searches from the current cursor position, wrapping back up to the top if necessary.
+<br /><br />
+<strong>Editing :</strong><br />
+Insert new text at the current cursor position just by typing the text in.
+<br /><br />
+Delete commands:
+<table>
+<tbody>
+<tr>
+<td><strong>^D</strong></td>
+<td>delete character currently under the cursor</td>
+</tr>
+<tr>
+<td><strong>BackSpace</strong></td>
+<td>delete character currently in front of the cursor</td>
+</tr>
+<tr>
+<td><strong>^K</strong></td>
+<td>delete entire line</td>
+</tr>
+<tr>
+<td><strong>^\</strong></td>
+<td>search for (and replace) a strong of characters</td>
+</tr>
+</tbody>
+</table>
+
+<strong>Cut and paste :</strong><br />
+<strong>^K</strong> does not delete lines permanently; the most recent set of deletions are stored in a buffer. These lines may be re-inserted at the current cursor location using <strong>^U</strong>. This may be used to simulate <strong>cut and paste</strong>:
+<ul>
+    <li>Repeatedly use <strong>^K</strong> until all of the text you want to move has been deleted.</li>
+    <li>Move to the line that you want to insert the text at, and use <strong>^U</strong>.</li>
+</ul>
+Note that pressing <strong>^U</strong> more than once will cause multiple copies to be inserted. This is particularly useful if you want to <strong>copy</strong> text:
+<ul>
+    <li>Repeatedly use <strong>^K</strong> until all of the text you want to copy has been deleted.</li>
+    <li>Press <strong>^U</strong> immediately to put a copy back in its original location.</li>
+    <li>Move to the line that you want to copy the text to, and use <strong>^U</strong>.</li>
+</ul>
+Other way is to select all text you want to copy by :
+<ul>
+    <li>Select the text :<strong> ALT</strong> + <strong>M</strong> + <strong>A</strong></li>
+    <li>Copy the text by :<strong> ALT</strong> + <strong>MAJ</strong> + <strong>6</strong></li>
+    <li>And past it :  ^<strong>U</strong></li>
+</ul>
+
+<strong>Saving and Exiting :</strong><br />
+<table>
+<tbody>
+<tr>
+<td><strong>^O</strong></td>
+<td>save contents without exiting (you will be prompted for a file to save to)</td>
+</tr>
+<tr>
+<td><strong>^X</strong></td>
+<td>exit nano (you will be prompted to save your file if you haven't)</td>
+</tr>
+<tr>
+<td><strong>^T</strong></td>
+<td>when saving a file, opens a browser that allows you to select a file name from a list of files and directories</td>
+</tr>
+</tbody>
+</table>

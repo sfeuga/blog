@@ -1,0 +1,25 @@
+<header class="site-header">
+
+  <div class="wrapper">
+
+    <h1><span>}</span></h1>
+
+    <nav class="site-nav">
+
+      <div class="trigger">
+        <!-- {{ site.title }} instead of blog -->
+        <a class="page-link" href="{{ site.baseurl }}/">blog</a>
+
+        {% for page in site.pages %}
+          {% if page.title %}
+          <span>x</span><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+          {% endif %}
+        {% endfor %}
+
+      </div>
+    </nav>
+
+    <h1>stephane <span>(</span>FEUGA<span>) {</span></h1>
+  </div>
+
+</header>

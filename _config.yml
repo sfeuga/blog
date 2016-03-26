@@ -1,0 +1,39 @@
+# Site settings
+title: "Billets d'un Devops Ruby, mais pas que..."
+email: sfeuga@member.fsf.org
+description: > # this means to ignore newlines until "baseurl:"
+  Devops Ruby at [Accenture](http://www.accenture.com), former system administrator.  
+  Specialized on GNU/Linux system.
+  Member of the [Free Software Fundation](http://www.fsf.org/).
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://sfeuga.github.io" # the base hostname & protocol for your site
+twitter_username: sfeuga
+github_username:  sfeuga
+linkedin_username: sfeuga
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+
+highlighter: pygments
+
+# Pagination
+paginate: 15
+paginate_path: "/page:num/"
+
+collections:
+  portfolio:
+    output: false
+    permalink: /portfolio/:path/
+
+exclude:  ["README.md","Gemfile","Gemfile.lock","CNAME","feed.xml"]
+
+encoding: utf-8
+
+gems:
+  - jekyll-mentions
+  - jemoji
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jekyll-feed
