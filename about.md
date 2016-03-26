@@ -2,9 +2,6 @@
 layout:     page
 title:      about
 permalink:  /about/
-github:     https://github.com/
-twitter:    https://twitter.com/
-linkedin:   https://www.linkedin.com/in/
 ---
 
 <img class="col one right" src="/img/avatar.png">
@@ -26,15 +23,15 @@ I quickly left the close world of SAP for another job as a [Ruby](https://en.wik
     {% endif %}
 
     {% if site.github_username %}
-      <a href="{{ page.github }}{{ site.github_username }}" target="_blank" class="square github"></a>
+      <a href="{{ site.github }}" target="_blank" class="square github"></a>
     {% endif %}
 
     {% if site.linkedin_username %}
-      <a href="{{ page.linkedin }}{{ site.linkedin_username }}" target="_blank" class="square linkedin"></a>
+      <a href="{{ site.linkedin }}" target="_blank" class="square linkedin"></a>
     {% endif %}
 
     {% if site.twitter_username %}
-      <a href="{{ page.twitter }}{{ site.twitter_username }}" target="_blank" class="square twitter"></a>
+      <a href="{{ site.twitter }}" target="_blank" class="square twitter"></a>
     {% endif %}
   </span>
 
