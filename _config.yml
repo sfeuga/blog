@@ -13,14 +13,6 @@ linkedin_username: https://www.linkedin.com/in/sfeuga
 
 # Build settings
 markdown: kramdown
-kramdown:
-  input: GFM
-
-highlighter: pygments
-
-# Pagination
-paginate: 15
-paginate_path: "/page:num/"
 
 exclude:  ["README.md","Gemfile","Gemfile.lock","CNAME"]
 
