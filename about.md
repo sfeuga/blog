@@ -16,7 +16,7 @@ I quickly left the close world of SAP for another job as a [Ruby](https://en.wik
 
 <div class="col three caption">
   <hr/>
-  <span class="contacticon">
+<!--  <span class="contacticon">
 
     {% if site.email %}
       <a href="mailto:{{ site.email }}" class="square email"></a>
@@ -34,6 +34,6 @@ I quickly left the close world of SAP for another job as a [Ruby](https://en.wik
       <a href="{{ site.twitter }}" target="_blank" class="square twitter"></a>
     {% endif %}
   </span>
-
+-->
 </div>
 
