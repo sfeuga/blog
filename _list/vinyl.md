@@ -1,4 +1,7 @@
-# Vinyls List
+---
+layout:     page
+title:      Vinyls List
+---
 
 ### All Ok
 * La Muerte - llamame

@@ -11,6 +11,10 @@ twitter: https://twitter.com/sfeuga
 github:  https://github.com/sfeuga
 linkedin: https://www.linkedin.com/in/sfeuga
 
+collections:
+  list:
+    output: true
+
 # Build settings
 markdown: kramdown
 exclude:  ["README.md","Gemfile","Gemfile.lock","CNAME"]
