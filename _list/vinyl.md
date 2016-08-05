@@ -18,6 +18,7 @@ title:      Vinyls List
 * Mike Oldfield - Tubular Bells
 * The Chemical Brothers - Let Forever Be
 * Diapason - Richter joue Liszt
+* The Who - Who are You
 
 ### Scratched Vinyl to Buy again
 * Mike Oldfield - Episodes - Virgin
