@@ -4,7 +4,7 @@ title:      Vinyls List
 ---
 
 ### All Ok
-* La Muerte - llamame
+* Llamame La Muerte - 12"
 * Daft Punk - Around the World
 
 
