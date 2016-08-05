@@ -17,7 +17,7 @@ title:      Vinyls List
 * Jimi Hendrix - Isle of Wight
 * Mike Oldfield - Tubular Bells
 * The Chemical Brothers - Let Forever Be
-
+* Diapason - Richter joue Liszt
 
 ### Scratched Vinyl to Buy again
 * Mike Oldfield - Episodes - Virgin
