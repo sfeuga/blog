@@ -1,8 +1,7 @@
 ---
 layout: post
-title: "Start GNU/Screen at a ssh session (and only when you connect by ssh)"
-categories:
-  - Computer science
+title: Start GNU/Screen at a ssh session (and only when you connect by ssh)
+tags: [ GNU/Linux ]
 ---
 This is a little tweak to start a GNU/Screen Session (or reconnect the last open session) when you login via ssh.
 First of all, you'll need GNU/Screen installed !

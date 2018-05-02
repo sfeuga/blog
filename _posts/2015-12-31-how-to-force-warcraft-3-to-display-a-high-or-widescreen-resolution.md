@@ -1,7 +1,7 @@
 ---
 layout: post
-
-title: "Force Warcraft 3 to display a high or widescreen resolution"
+title: Force Warcraft 3 to display a high or widescreen resolution
+tags: [ Windows, Game ]
 ---
 First, we need to launch RegEdit, and edit the `HKEY_CURRENT_USER\Software\Blizzard Entertainment\Warcraft III\Video` key.
 

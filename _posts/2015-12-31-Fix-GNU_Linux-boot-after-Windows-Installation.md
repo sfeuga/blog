@@ -1,7 +1,7 @@
 ---
 layout: post
-
-title: "Fix GNU/Linux boot after Windows Installation"
+title: Fix GNU/Linux boot after Windows Installation
+tags: [ GNU/Linux ]
 ---
 In my office, we must use the ugly M$ Windows. So after many year of single GNU/Linux booting, I need to install Windows again as a dual boot.
 

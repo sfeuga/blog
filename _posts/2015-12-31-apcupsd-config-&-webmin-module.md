@@ -1,7 +1,7 @@
 ---
 layout: post
-
-title: "apcupsd Config & Webmin Module"
+title: apcupsd Config & Webmin Module
+tags: [ GNU/Linux ]
 ---
 
 First of all, install [apcupsd](http://www.apcupsd.org/) with the commande `sudo apt-get install apcupsd apcupsd-doc apcupsd-cgi`.

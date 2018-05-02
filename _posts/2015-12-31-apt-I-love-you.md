@@ -1,7 +1,7 @@
 ---
 layout: post
-
-title: "APT, I love you"
+title: APT, I love you
+tags: [ GNU/Linux ]
 ---
 APT ([Advanced Package Tool](https://en.wikipedia.org/wiki/Advanced_Packaging_Tool)) is a [CLI](https://en.wikipedia.org/wiki/Command-line_interface) program to handle the installation and removal of software on the [Debian GNU/Linux and its variants](https://en.wikipedia.org/wiki/Debian).
 

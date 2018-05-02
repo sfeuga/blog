@@ -1,7 +1,7 @@
 ---
 layout: post
-
-title: "Create a new folder or add applications into an existing one into Gnome 3.2 Shell"
+title: Create a new folder or add applications into an existing one into Gnome 3.2 Shell
+tags: [ GNU/Linux ]
 ---
 List available desktop files under `.local/share/applications` and `/usr/share/applications/`
 

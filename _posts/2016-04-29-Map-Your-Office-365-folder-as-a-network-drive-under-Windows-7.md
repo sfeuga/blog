@@ -19,4 +19,4 @@ Of course, you can rename drive in your Windows Explorer by selecting the drive 
 
 You’ll get all drives like that:
 
-![A Wonderfull mapped drive !](/img/onedrive.png)
+![A Wonderfull mapped drive !](/assets/images/onedrive.png)

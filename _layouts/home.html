@@ -1,0 +1,41 @@
+---
+layout: default
+---
+<div class="home">
+{%- if page.title -%}
+  <h1 class="page-heading">{{ page.title }}</h1>
+{%- endif -%}
+
+{{ content }}
+
+{%- if site.posts.size > 0 -%}
+  <h2 class="post-list-heading">{{ page.list_title | default: "Latest Posts" }}</h2>
+
+  <h4 class="tags-home"><a href="/tags.html">Tags:</a></h4>
+  <ul class="tags tags-home">
+  {% for tag in site.tags %}
+    {% assign t = tag | first %}
+    <li><a href="/tags.html#{{t | downcase | replace:" ","-" }}">{{ t }}</a></li>
+  {% endfor %}
+  </ul>
+
+  <ol id="home-list" class="post-list monospaced">
+    {%- for post in site.posts -%}
+      {% unless post.exclude %}
+        <li class="home-list">
+          {%- assign date_format = site.minima.date_format | default: "%Y-%m-%d" -%}
+          <h3 class="home-list">
+            <a href="{{ post.url | relative_url }}">
+              <span class="post-meta">{{ post.date | date: date_format }}</span>
+              {{ post.title | escape }}
+            </a>
+            {%- if site.show_excerpts -%}
+              {{ post.excerpt }}
+            {%- endif -%}
+          </h3>
+        </li>
+      {% endunless %}
+    {%- endfor -%}
+  </ol>
+{%- endif -%}
+</div>

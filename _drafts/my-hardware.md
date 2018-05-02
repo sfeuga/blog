@@ -1,0 +1,18 @@
+---
+layout: default
+title: My hardware collection list
+tags: [ My Hardware ]
+---
+My computer naming convention is based on the Solar System. Main computer use planet name, other computers uses satellites name.
+
+| Name    | Hardware          | Name      | Hardware   | Name     | Hardware  | Name      | Hardware | Name     | Hardware | Name      | Hardware | Name       | Hardware | Name     | Hardware | Name     | Hardware | Name    | Hardware | Name     | Hardware | Name    | Hardware | Name      | Hardware | Name     | Hardware | Name    | Hardware |
+|:--------|:-----------------:|:----------|:----------:|:---------|:---------:|:----------|:--------:|:---------|:--------:|:----------|:--------:|:-----------|:--------:|:---------|:--------:|:---------|:--------:|:--------|:--------:|:---------|:--------:|:--------|:--------:|:----------|:--------:|:---------|:--------:|:--------|:--------:|
+| Mercury | SGI Fuel          |           |            |          |           |           |          |          |          |           |          |            |          |          |          |          |          |         |          |          |          |         |          |           |          |          |          |         |          |
+| Venus   | MacBook Pro 15"   |           |            |          |           |           |          |          |          |           |          |            |          |          |          |          |          |         |          |          |          |         |          |           |          |          |          |         |          |
+| Earth   | SGI Tezro         | Moon      |            |          |           |           |          |          |          |           |          |            |          |          |          |          |          |         |          |          |          |         |          |           |          |          |          |         |          |
+| Mars    | SUN Ultra 45      | Phobos    | Blade 1500 | Deimos   | Blade 150 |           |          |          |          |           |          |            |          |          |          |          |          |         |          |          |          |         |          |           |          |          |          |         |          |
+| Jupiter | SGI O2+           | Metis     | O2         | Adrastea |           | Amalthea  |          | Thebe    |          | Io        |          | Europa     |          | Ganymede |          | Callisto |          |         |          |          |          |         |          |           |          |          |          |         |          |
+| Saturn  | SGI Octane 2      | Janus     | Octane     | Mimas    | Octane    | Enceladus | Octane   | Tethys   | Octane   | Dione     |          | Rhea       |          | Titan    |          | Hyperion |          | Lapetus |          | Phoebe   |          |         |          |           |          |          |          |         |          |
+| Uranus  | Lenovo miix 2 10" | Cordelia  |            | Ophelia  |           | Bianca    |          | Cressida |          | Desdemona |          | Juliet     |          | Portia   |          | Rosalind |          | Cupid   |          | Perdita  |          | Belinda |          | Puck      |          | Mab      |          | Miranda |          |
+| Neptune |                   | Naiad     |            | Thalassa |           | Despina   |          | Galatea  |          | Larissa   |          | S/2004 N 1 |          | Proteus  |          | Triton   |          | Nereid  |          | Halimede |          | Sao     |          | Laomedeia |          | Psamathe |          | Neso    |          |
+

@@ -1,7 +1,7 @@
 ---
 layout: post
-
-title: "Howto Get UUID"
+title: Howto Get UUID
+tags: [ GNU/Linux ]
 ---
 You can get UUID with the command `blkid`.
 

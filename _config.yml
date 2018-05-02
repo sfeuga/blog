@@ -1,23 +1,40 @@
-# Site settings
-title: "Billets d'un Devops Ruby, mais pas que..."
+# site settings
+title: The Meaning of The Evil
 email: sfeuga@member.fsf.org
-description: > # this means to ignore newlines until "baseurl:"
-  Senior Devops Ruby at [Accenture](http://www.accenture.com) for the [World Economic Forum](https://www.weforum.org). Former system administrator, specialized on GNU/Linux system.
+author: Stéphane FEUGA
 
-  Member of the [Free Software Fundation](http://www.fsf.org/).
-baseurl: "" # the subpath of your site, e.g. /blog/
+description: >- # this means to ignore newlines until "baseurl:"
+  A place to talk about CG, Hardware, Software, Irix & SGI related stuff and much more.
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://sfeuga.github.io" # the base hostname & protocol for your site
-twitter: https://twitter.com/sfeuga
-github:  https://github.com/sfeuga
-linkedin: https://www.linkedin.com/in/sfeuga
+
+theme: minima
+
+# social settings
+github_username:   sfeuga
+linkedin_username: sfeuga
+twitter_username:  sfeuga
+
+# build settings
+markdown: kramdown
+encoding: utf-8
+
+plugins:
+  - jekyll-feed
 
 collections:
-  list:
+  hardware:
     output: true
 
-# Build settings
-markdown: kramdown
-exclude:  ["README.md","Gemfile","Gemfile.lock","CNAME"]
-encoding: utf-8
-gems:
-  - jekyll-feed
+# Exclude from processing.
+exclude:
+  - .gitignore
+  - .gitlab-ci.yml
+  - .jekyll-metadata
+  - .ruby-version
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - Rakefile

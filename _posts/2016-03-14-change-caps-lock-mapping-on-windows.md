@@ -1,7 +1,7 @@
 ---
 layout: post
-
-title: "Change \"Caps Lock\" Mapping on M$ Windows®"
+title: Change "Caps Lock" Mapping on M$ Windows
+tags: [ Windows ]
 ---
 
 According to [Keyboard and mouse class drivers](https://msdn.microsoft.com/en-us/library/windows/hardware/jj128267%28v=vs.85%29.aspx), we can easily change all keymaps with a simple tweak in the registry database.
@@ -11,7 +11,7 @@ The `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout` need t
 The data format specified in the following table.
 
 | Start offset (in bytes) |	Size (in bytes)	| Data |
-| --- | --- | --- | 
+| --- | --- | --- |
 | 0	| 4	| Header: Version Information |
 | 4	| 4	| Header: Flags |
 | 8	| 4	| Header: Number of Mappings |

@@ -1,0 +1,40 @@
+---
+---
+@import "minima";
+
+body {
+  overflow-y: scroll;
+}
+
+.tags li {
+  display:inline;
+  padding:4px 8px;
+  margin-right:4px;
+  background:#EEE;
+  font-size:.9em;
+}
+
+.tags-home {
+  display:inline-block;
+  margin-left:0;
+  margin-bottom:2em;
+}
+
+.wrapper {
+  max-width: -webkit-calc(1600px - (30px * 2));
+  max-width: calc(1600px - (30px * 2));
+}
+
+.home-list {
+  margin:0 !important;
+}
+
+.monospaced {
+  font-family: "Lucida Console", Monaco, monospace;
+}
+
+#home-list {
+  font-size: 0.9em;
+  color: #828282;
+  list-style: decimal-leading-zero inside;
+}
